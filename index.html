@@ -6,6 +6,68 @@
     <title>Github Favorites</title>
 </head>
 <body>
-    
+    <div id="app">
+        <header>
+            <h1>GitHub Favorites</h1>
+            <div>
+                <label for="input-search">GitHub User</label>
+                <input type="text" name="input-search" id="input-search" placeholder="GitHub User">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                    <td class="user">
+                        <img src="https://github.com/thiagofrf.png" alt="Github profile image">
+                        <a href="https://github.com/thiagofrf">
+                            <p>Thiago Fontanella</p>
+                            <span>thiagofrf</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        76
+                    </td>
+                    <td class="followers">
+                        9589
+                    </td>
+                    <td>
+                        <button>
+                            &times;
+                        </button>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td class="user">
+                        <img src="https://github.com/thiagofrf.png" alt="Github profile image">
+                        <a href="https://github.com/thiagofrf" target="_blank">
+                            <p>Thiago Fontanella</p>
+                            <span>thiagofrf</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        76
+                    </td>
+                    <td class="followers">
+                        9589
+                    </td>
+                    <td>
+                        <button>
+                            &times;
+                        </button>
+                    </td>
+                 </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
 </body>
 </html>
