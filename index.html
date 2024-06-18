@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Favorites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
         <header>
             <h1>GitHub Favorites</h1>
-            <div>
-                <label for="input-search">GitHub User</label>
+            <div class="search">
+                <label for="input-search" class="sr-only">GitHub User</label>
                 <input type="text" name="input-search" id="input-search" placeholder="GitHub User">
                 <button>&plus;</button>
             </div>
@@ -40,7 +44,7 @@
                         9589
                     </td>
                     <td>
-                        <button>
+                        <button class="remove">
                             &times;
                         </button>
                     </td>
@@ -60,7 +64,7 @@
                         9589
                     </td>
                     <td>
-                        <button>
+                        <button class="remove">
                             &times;
                         </button>
                     </td>
